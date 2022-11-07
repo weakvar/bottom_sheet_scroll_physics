@@ -9,13 +9,13 @@ This `BottomSheetScrollPhysics` behaves as `ClampingScrollPhysics` at the top of
 **Default `ScrollPhysics`**
 
 <p align="left">
-  <img src="https://github.com/weakvar/bottom_sheet_scroll_physics/blob/feature/readme/example/preview/default.gif" alt="Default ScrollPhysics" width="200">
+  <img src="https://github.com/weakvar/bottom_sheet_scroll_physics/blob/main/example/preview/default.gif" alt="Default ScrollPhysics" width="200">
 </p>
 
 **Bottom Sheet with `BottomSheetScrollPhysics`**
 
 <p align="left">
-  <img src="https://github.com/weakvar/bottom_sheet_scroll_physics/blob/feature/readme/example/preview/custom_physics.gif" alt="Bottom Sheet with BottomSheetScrollPhysics" width="200">
+  <img src="https://github.com/weakvar/bottom_sheet_scroll_physics/blob/main/example/preview/custom_physics.gif" alt="Bottom Sheet with BottomSheetScrollPhysics" width="200">
 </p>
 
 ## Usage
