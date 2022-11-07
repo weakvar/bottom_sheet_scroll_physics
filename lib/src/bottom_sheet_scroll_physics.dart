@@ -7,9 +7,10 @@ import 'package:flutter/widgets.dart';
 /// And on Android, it will behave like ClampingScrollPhysics at the top and at the bottom of the scroll.
 ///
 /// See also:
-/// - [BouncingScrollPhysics], which is the analogous physics for iOS' bouncing behavior.
-/// - [ClampingScrollPhysics], which is the analogous physics for Android's clamping behavior.
-/// - [ScrollPhysics], for more examples of combining [ScrollPhysics] objects of different types to get the desired scroll physics.
+///
+///  * [BouncingScrollPhysics], which is the analogous physics for iOS' bouncing behavior.
+///  * [ClampingScrollPhysics], which is the analogous physics for Android's clamping behavior.
+///  * [ScrollPhysics], for more examples of combining [ScrollPhysics] objects of different types to get the desired scroll physics.
 class BottomSheetScrollPhysics extends ScrollPhysics {
   /// Creates scroll physics that behaves as [ClampingScrollPhysics] at the top of the scroll
   /// and as the default [ScrollPhysics] on the bottom.
