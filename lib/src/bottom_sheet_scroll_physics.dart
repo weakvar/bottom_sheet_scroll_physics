@@ -4,7 +4,7 @@ import 'package:flutter/widgets.dart';
 /// and as the default [ScrollPhysics] on the bottom.
 ///
 /// This means that on iOS it will behave like [ClampingScrollPhysics] at the top and [BouncingScrollPhysics] at the bottom.
-/// And on Android, it will behave like ClampingScrollPhysics at the top and at the bottom of the scroll.
+/// And on Android, it will behave like [ClampingScrollPhysics] at the top and at the bottom of the scroll.
 ///
 /// See also:
 ///
