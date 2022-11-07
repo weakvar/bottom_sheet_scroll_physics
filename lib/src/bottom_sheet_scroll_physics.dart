@@ -16,6 +16,11 @@ class BottomSheetScrollPhysics extends ScrollPhysics {
   const BottomSheetScrollPhysics({super.parent});
 
   @override
+  ScrollPhysics applyTo(ScrollPhysics? ancestor) {
+    return BottomSheetScrollPhysics(parent: buildParent(ancestor));
+  }
+
+  @override
   double applyBoundaryConditions(ScrollMetrics position, double value) {
     // Prevents scrolling over the top of the scroll
     if (value < position.pixels && position.pixels <= position.minScrollExtent) {
